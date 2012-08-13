@@ -29,7 +29,7 @@ do ($ = jQuery) ->
           # into the input form that chosen has created
           
           # Retrieve the current value of the input form
-          val = $.trim $(@).attr('value')
+          val = $(@).attr('value')
 
           # Depending on how much text the user has typed, let them know
           # if they need to keep typing or if we are looking for their data
